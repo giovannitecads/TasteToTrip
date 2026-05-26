@@ -1,8 +1,6 @@
 
 body {
-    
-    padding: 10px;
-    border-radius: 10px;
+  
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e2e4e9;
     
@@ -11,7 +9,7 @@ body {
 
 header {
     background-color: rgb(226, 8, 8);
-    border-radius: 20px 0px;
+    border-radius: 10px 0px;
      box-shadow: 5px 5px 15px black;
     
 }
@@ -28,12 +26,10 @@ header {
 
 
 h1 {
-    padding: 50px;
+    padding: 30px;
     font-size: 40px;
     color: white;
-    margin: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 20px;
     font-style: italic;
     text-shadow: 1px 1px 2px;
 
@@ -44,7 +40,6 @@ h1 {
      text-decoration: underline;
 }
 .menu-filhos  {
-  margin-left: 10px;
   display: flex;
   padding: 10px;
   
@@ -64,12 +59,11 @@ h1 {
 .imagem-header {
   display: flex; 
   justify-content: start;
-  margin-top: 20px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .imagem-header > img {
-  width: 150px;
+  width: 200px;
   border-radius: 50px;
 
 }
@@ -106,7 +100,7 @@ p {
 #termos {
 
     background-color: white;
-    color: #333;
+    color: black;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 5px 5px 15px black;
