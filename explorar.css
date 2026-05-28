@@ -2,6 +2,7 @@ body {
     
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    background-color: #f5f3ef;
     
     
 }
@@ -74,4 +75,58 @@ h1 {
   width: 100%;
   
  
+}
+h2 {
+  text-align:center ;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.culinarias {  
+display: flex;
+
+
+   
+
+}
+
+
+.card{
+  
+  margin: 10px;
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    height: 330px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    margin-bottom: 25px;
+   
+}
+
+.foto-culinarias {
+  width: 100%;
+  border-radius:5px 5px 0 0;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 0px 10px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.botao-explorar {
+  background-color: #121212;
+  color: white;
+  text-decoration: none;
+  padding: 7px 45px;
+ border-radius: 5px;
+ font-size: 14px;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+footer {
+  background-color: #121212;
+  height: 400px;
 }

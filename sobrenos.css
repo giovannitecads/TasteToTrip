@@ -117,4 +117,19 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+  background-color: black;
+  height: 100px;
+  
+}
 
+footer > nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer > h2 {
+  color: white;
+  font-size: 20px;
+
+}
