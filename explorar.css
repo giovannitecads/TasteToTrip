@@ -43,8 +43,6 @@ h1 {
     margin: 0px;
     font-size: 18px;
     color: white;
-    margin-top: -25px;
-    margin-bottom: -25px;
    
 }
 
@@ -84,9 +82,8 @@ h2 {
 
 .culinarias {  
 display: flex;
+justify-content: space-evenly;
 
-
-   
 
 }
 
