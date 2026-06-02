@@ -214,10 +214,15 @@ justify-content: space-evenly;
   
   position: relative;
     width: 250px;
-    height: 500px;
+    height: 300px;
     border-radius: 20px;
     margin-top: 20px;
+    transition: 0.3s;
    
+}
+
+.card-gastro:hover{
+    transform: translateY(-10px);
 }
 
 .foto-gastro {
@@ -231,7 +236,7 @@ justify-content: space-evenly;
 
 .conteudo-card{
     position: absolute;
-    bottom: 220px;
+    bottom: 20px;
     text-align: center;
     color: white;
 }
@@ -250,7 +255,7 @@ justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.788);
 
     
-    margin-left: 100px;
+    margin-left: 40%;
 } 
 
 .conteudo-card > h3 {
@@ -269,6 +274,106 @@ justify-content: space-evenly;
      padding: 0px 10px ;
      font-weight: 200;
      
+}
+
+.proximos{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: #031736;
+    border-radius:20px;
+    border: 1px solid rgba(255,255,255,0.15);
+    margin: 20px;
+    padding: 15px 20px;
+    margin-top: 30px;
+   
+}
+
+.texto-proximos{
+    width:250px;
+    color:white;
+    margin-left: 30px;
+   
+}
+
+.texto-proximos > h2{
+    color:white;
+    font-weight: 300;
+    font-size: 40px;
+    
+}
+
+.texto-proximos > p {
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+ 
+.texto-proximos > a {
+  color: rgb(0, 0, 0);
+  background-color: rgb(156, 156, 6);
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 15px ;
+  font-weight: 600;
+  
+  
+}
+
+#loc{
+  color: black;
+  
+}
+
+
+.mapa-proximos img{
+    width:570px;
+    border-radius:15px;
+    
+    
+}
+
+.lista-restaurantes{
+    width:350px;
+    background-color: #04122c;
+    padding: 10px;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.linha-entre{
+    display: flex;
+    justify-content: center;
+}
+
+.filho-linhaa {
+  width: 90%;
+   
+    margin-top: 30px;
+
+    border: 1px solid  rgba(255, 255, 255, 0.027);
+}
+
+.restaurante{
+    display:flex;
+    align-items: end;
+    gap:15px;
+    border-radius: 20px;
+    color: white;
+   
+   
+}
+
+
+
+.restaurante > img{
+    width:95px;
+    height:95px;
+    border-radius:10px;
+    object-fit:cover;
 }
 
 

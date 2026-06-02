@@ -2,7 +2,7 @@ body {
     
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: #f5f3ef;
+    background-color: #121212;
     
     
 }
@@ -10,7 +10,7 @@ body {
 header {
 
      background-color: #121212;
-     border-bottom: 2px solid white;
+     
      
     
 }
@@ -75,6 +75,7 @@ h1 {
  
 }
 h2 {
+  color: white;
   text-align:center ;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
@@ -99,7 +100,12 @@ justify-content: space-evenly;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
     margin-bottom: 25px;
+    transition: 0.3s;
    
+}
+
+.card:hover{
+    transform: translateY(-10px);
 }
 
 .foto-culinarias {
@@ -122,8 +128,4 @@ p {
  font-size: 14px;
  font-family: Arial, Helvetica, sans-serif;
  
-}
-footer {
-  background-color: #121212;
-  height: 400px;
 }
