@@ -160,11 +160,115 @@ i{
 
 .filho-linha {
   width: 90%;
-    height: 1px;
-
+   
     margin-top: 30px;
 
     border: 1px solid  rgba(255,255,255,0.15);
+}
+
+
+
+.experiencias > h2 {
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 300;
+ 
+}
+
+#Muito{
+  color: rgba(255, 255, 255, 0.856);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: -10px;
+}
+
+
+.experiencias{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.linha{
+  width: 40px;               
+    height: 1px;
+    background-color: #bfa054;
+}
+
+
+
+.gastronomicas {  
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+
+.card-gastro{
+  
+  position: relative;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+
+.foto-gastro {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    filter: brightness(50%);
+
+}
+
+.conteudo-card{
+    position: absolute;
+    bottom: 220px;
+    text-align: center;
+    color: white;
+}
+
+.circuloo {
+
+   width:50px;
+    height:50px;
+
+    border:1px solid yellow;
+    border-radius:50%;
+
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.788);
+
+    
+    margin-left: 100px;
+} 
+
+.conteudo-card > h3 {
+  color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 0.5;
+    
+}
+
+.conteudo-card > p {
+  color: white;
+  text-align: center;
+    font-size: 14px;
+     padding: 0px 10px ;
+     font-weight: 200;
+     
 }
 
 
