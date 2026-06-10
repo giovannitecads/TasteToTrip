@@ -2,15 +2,14 @@
 body {
   
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e2e4e9;
+    background-color: #031736;
     margin: 0px;
     
 }
 
 
 header {
-    background-color: rgb(180, 4, 4);
-     box-shadow: 5px 5px 15px black;
+    background-color: #031736;
     
 }
 
@@ -18,13 +17,22 @@ header {
 .header-pai {
   display: flex;
   align-items: center;
-  justify-content: center;
-  column-gap: 30px;
+  
+  
+}
+
+.linha-final{
+    display: flex;
+    justify-content: center;
+}
+
+.filho-linha {
+  width: 100%;
+    border: 1px solid  rgba(255, 255, 255, 0.034);
 }
 
 
 h1 {
-    padding: 15px;
     font-size: 30px;
     color: white;
     font-style: italic;
@@ -32,13 +40,12 @@ h1 {
    
 }
 
-#SobreNos {
-     text-decoration: underline;
-}
+
 .menu-filhos  {
   display: flex;
+  padding: 10px;
+   margin-left: 200px;
   
-  justify-content: center;
   
 }
 
@@ -46,30 +53,42 @@ h1 {
 .menu-filhos > a {
   color: white;
   padding: 20px;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   
 }
 
 .menu-filhos > a:hover{
-  color: white;
+  color: rgb(197, 197, 9);
   text-decoration:underline;
 }
 
 
-.imagem-header {
+.logo-header {
   display: flex; 
-  justify-content: start;
+   align-items: center;
+   margin: 20px;
+   margin-left: 40px;
   
  
 }
 
-.imagem-header > img {
-  width: 200px;
+.logo-header > img {
+  width: 150px;
   border-radius: 50px;
 
 }
 
+.paisagem {
+  display: flex;
+  justify-content: center;
+}
+
+.paisagem > img{
+  width: 100%;
+ 
+ 
+}
 
 h2 { 
     color: black;
