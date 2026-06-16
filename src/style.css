@@ -15,7 +15,7 @@ header {
 .header-pai {
   display: flex;
   align-items: center;
-
+ 
  
 
   
@@ -37,8 +37,8 @@ h1 {
 
 .menu-filhos  {
   display: flex;
-  padding: 10px;
-   margin-left: 200px;
+  
+   margin-left: 100px;
   
 }
 
@@ -54,6 +54,33 @@ h1 {
 .menu-filhos > a:hover{
   color: rgb(197, 197, 9);
   text-decoration:underline;
+}
+
+
+.botao {
+    display: flex;
+    align-items: center;
+     
+}
+
+#icone {
+    color: black;
+    font-size: 20px;
+    
+}
+
+#Entrar {
+    background-color: orange;
+    color: black;
+    
+    padding: 10px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 80px;
+   
+   
+   
 }
 
 

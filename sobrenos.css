@@ -9,7 +9,7 @@ body {
 
 
 header {
-    background-color: #031736;
+    background-color: #0A1F44;
     
 }
 
@@ -43,8 +43,8 @@ h1 {
 
 .menu-filhos  {
   display: flex;
-  padding: 10px;
-   margin-left: 200px;
+  
+   margin-left: 100px;
   
   
 }
@@ -63,6 +63,31 @@ h1 {
   text-decoration:underline;
 }
 
+.botao {
+    display: flex;
+    align-items: center;
+     
+}
+
+#icone {
+    color: black;
+    font-size: 20px;
+    
+}
+
+#Entrar {
+    background-color: orange;
+    color: black;
+    
+    padding: 10px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 80px;
+   
+   
+   
+}
 
 .logo-header {
   display: flex; 
@@ -90,7 +115,7 @@ h1 {
  
 }
 
-.como-funciona{
+.main{
     text-align: center;
     color: white;
 
@@ -104,7 +129,7 @@ h1 {
     font-weight: bold;
 }
 
-.como-funciona h2{
+.main h2{
     font-size: 30px;
   font-weight: 300; 
 }
@@ -112,15 +137,16 @@ h1 {
 .passos{
     display: flex;
 
-    justify-content: center;
+    justify-content: space-evenly;
 
     gap: 30px;
 }
 
 .card-passo{
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.030);
+    background-color: rgba(255, 255, 255, 0.027);
 
-    border-radius: 20px;
+    border-radius: 15px;
 
     padding: 30px;
 
@@ -187,4 +213,258 @@ h1 {
 .parag-card {
   font-size: 14px;
   font-weight: 100;
+}
+
+.linhaa-final{
+    display: flex;
+    justify-content: center;
+}
+
+.filho-linhaa {
+  width: 90%;
+   
+    margin-top: 30px;
+
+    border: 1px solid  rgba(255, 255, 255, 0.027);
+}
+
+.valores{
+    display: flex;
+
+    justify-content: center;
+
+   
+}
+
+.card-valores{
+    
+  background-color: rgba(255, 255, 255, 0.027);
+    border-radius: 15px;
+
+    padding: 10px;
+
+    width: 300px;
+}
+.linhaa-meio{
+    display: flex;
+    justify-content: center;
+}
+
+.meio {
+  width: 1%;
+  height: 70%;
+   
+    margin-top: 30px;
+
+    border: 1px solid  rgba(255,255,255,0.15);
+}
+
+.card-valores i{
+    font-size: 50px;
+
+    color: #F4B400;
+    
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.card-valores h4{
+    margin-bottom: 15px;
+    font-weight: 600;
+  
+}
+
+.parag-card {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display:flex;
+    justify-content:space-around;
+
+    padding:10px;
+
+    background:#010a1885;
+
+    border-top:1px solid rgba(255,255,255,0.15);
+
+    margin-top: 30px;
+}
+
+.footer .coluna:first-child{
+    width: 280px;
+}
+
+.logo-footer{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.logo-icone{
+    width:40px;
+    height:40px;
+
+    border:1px solid white;
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-icone i{
+    color:#D4A017;
+    font-size:32px;
+    display: flex;
+}
+
+.logo-footer h2{
+    margin:0;
+    color:white;
+}
+
+.trip{
+    color:#D4A017;
+}
+
+.coluna{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+     border-right: 1px solid rgba(255, 255, 255, 0.068);
+      padding: 0 56px;
+    color:white;
+}
+
+.coluna:last-child{
+    border-right: none;
+}
+
+.coluna a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+
+.coluna p {
+ margin: 0px;
+ 
+    
+}
+
+.coluna a:hover{
+    color:#D4A017;
+}
+
+.redes{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+    
+}
+
+.redes i{
+    width:20px;
+    height:20px;
+
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 9px;
+    color: white;
+}
+
+.coluna > img {
+    width: 120px;
+}
+
+.copyright{
+    text-align:center;
+
+    color:rgba(255,255,255,0.6);
+
+    padding:15px;
+
+    border-top:1px solid rgba(255,255,255,0.1);
+
+    background:#010a1885;
 }
