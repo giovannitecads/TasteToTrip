@@ -2,7 +2,7 @@ body {
     
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: rgba(240, 240, 219, 0.856);
+    background-color: rgb(235, 230, 230);
     
     
 }
@@ -94,7 +94,7 @@ justify-content: space-around;
   
   margin: 10px;
     border-radius: 5px 5px 0 0;
-    background-color: white;
+    background-color: rgb(243, 243, 235);
     width: 250px;
     text-align: center;
     height: 330px;
@@ -129,4 +129,122 @@ p {
  font-size: 14px;
  font-family: Arial, Helvetica, sans-serif;
  
+}
+
+
+.footer{
+    display:flex;
+    justify-content:space-around;
+
+    padding:10px;
+
+    background:#121212;
+
+    border-top:1px solid rgba(255,255,255,0.15);
+
+    margin-top: 30px;
+}
+
+.footer .coluna:first-child{
+    width: 280px;
+}
+
+.logo-footer{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.logo-icone{
+    width:40px;
+    height:40px;
+
+    border:1px solid white;
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-icone i{
+    color:#D4A017;
+    font-size:32px;
+    display: flex;
+}
+
+.logo-footer h2{
+    margin:0;
+    color:white;
+}
+
+.trip{
+    color:#D4A017;
+}
+
+.coluna{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+     border-right: 1px solid rgba(255, 255, 255, 0.068);
+      padding: 0 56px;
+    color:white;
+}
+
+.coluna:last-child{
+    border-right: none;
+}
+
+.coluna a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+
+.coluna p {
+ margin: 0px;
+ 
+    
+}
+
+.coluna a:hover{
+    color:#D4A017;
+}
+
+.redes{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+    
+}
+
+.redes i{
+    width:20px;
+    height:20px;
+
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 9px;
+    color: white;
+}
+
+.coluna > img {
+    width: 120px;
+}
+
+.copyright{
+    text-align:center;
+
+    color:rgba(255,255,255,0.6);
+
+    padding:15px;
+
+    border-top:1px solid rgba(255,255,255,0.1);
+
+    background:#121212;
 }
