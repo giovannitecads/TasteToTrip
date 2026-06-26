@@ -1,0 +1,532 @@
+
+body {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #031736;
+    margin: 0px;
+    
+}
+
+
+header {
+    background-color: #0A1F44;
+    
+}
+
+
+.header-pai {
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.linha-final{
+    display: flex;
+    justify-content: center;
+}
+
+.filho-linha {
+  width: 100%;
+    border: 1px solid  rgba(255, 255, 255, 0.034);
+}
+
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    
+   
+}
+
+
+.menu-filhos  {
+  display: flex;
+  
+   margin-left: 50px;
+  
+  
+}
+
+
+.menu-filhos > a {
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+
+.menu-filhos > a:hover{
+  color: rgb(197, 197, 9);
+  text-decoration:underline;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+     
+}
+
+#icone {
+    color: black;
+    font-size: 20px;
+    
+}
+
+#Entrar {
+    background-color: orange;
+    color: black;
+    
+    padding: 10px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 80px;
+   
+   
+   
+}
+
+.logo-header {
+  display: flex; 
+   align-items: center;
+   margin: 20px;
+   margin-left: 40px;
+  
+ 
+}
+
+.logo-header > img {
+  width: 150px;
+  border-radius: 50px;
+
+}
+
+.paisagem {
+  display: flex;
+  justify-content: center;
+}
+
+.paisagem > img{
+  width: 100%;
+ 
+ 
+}
+
+.main{
+    text-align: center;
+    color: white;
+
+    margin-top: 20px;
+}                                             
+
+.titulo-pequeno{
+    color: #F4B400;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main h2{
+    font-size: 30px;
+  font-weight: 300; 
+}
+
+.passos{
+    display: flex;
+
+    justify-content: space-evenly;
+
+    gap: 30px;
+}
+
+.card-passo{
+    border: 1px solid rgba(255, 255, 255, 0.030);
+    background-color: rgba(255, 255, 255, 0.027);
+
+    border-radius: 15px;
+
+    padding: 30px;
+
+    width: 250px;
+
+    position: relative;
+
+    text-align: center;
+}
+
+.numero{
+    background-color: #F4B400;
+    color: black;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+
+    position: absolute;
+
+    top: 1px;
+    left: 15px;
+}
+
+.card-passo i{
+    font-size: 50px;
+
+    color: #F4B400;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circulo {
+
+   width:80px;
+    height:80px;
+
+    border:1px solid yellow;
+    border-radius:50%;
+
+     display:flex;
+    justify-content:center;
+    align-items:center;
+   
+  background-color: #021127;
+    
+    margin-left: 35%;
+} 
+
+.card-passo h4{
+    margin-bottom: 15px;
+    font-weight: 400;
+  
+}
+
+.parag-card {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.linhaa-final{
+    display: flex;
+    justify-content: center;
+}
+
+.filho-linhaa {
+  width: 90%;
+   
+    margin-top: 30px;
+
+    border: 1px solid  rgba(255, 255, 255, 0.027);
+}
+
+.valores{
+    display: flex;
+
+    justify-content: center;
+
+   
+}
+
+.card-valores{
+    
+  background-color: rgba(255, 255, 255, 0.027);
+    border-radius: 15px;
+
+    padding: 10px;
+
+    width: 300px;
+
+     transition: 0.5s;
+}
+
+.card-valores:hover{
+    transform: translateY(-10px);
+}
+
+
+.linhaa-meio{
+    display: flex;
+    justify-content: center;
+}
+
+.meio {
+  width: 1%;
+  height: 70%;
+   
+    margin-top: 30px;
+
+    border: 1px solid  rgba(255,255,255,0.15);
+}
+
+.card-valores i{
+    font-size: 50px;
+
+    color: #F4B400;
+    
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.card-valores h4{
+    margin-bottom: 15px;
+    font-weight: 600;
+  
+}
+
+.parag-card {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Tendencias{
+    display: flex;
+    
+    justify-content: space-around;
+
+   
+}
+
+.card-tendencias{
+    
+  background-color: rgba(255, 255, 255, 0.027);
+    border-radius: 15px;
+
+    padding: 20px;
+    margin: 15px;
+    transition: 0.5s;
+   
+}
+
+.card-tendencias:hover{
+    transform: translateY(-10px);
+}
+
+
+.card-tendencias i{
+    font-size: 50px;
+
+    color: #F4B400;
+    
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.card-tendencias h4{
+    margin-bottom: 15px;
+    font-weight: 600;
+    
+  
+}
+
+
+.card-tendencias p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display:flex;
+    justify-content:space-around;
+
+    padding:10px;
+
+    background:#010a1885;
+
+    border-top:1px solid rgba(255,255,255,0.15);
+
+    margin-top: 30px;
+}
+
+.footer .coluna:first-child{
+    width: 280px;
+}
+
+.logo-footer{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.logo-icone{
+    width:40px;
+    height:40px;
+
+    border:1px solid white;
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-icone i{
+    color:#D4A017;
+    font-size:32px;
+    display: flex;
+}
+
+.logo-footer h2{
+    margin:0;
+    color:white;
+}
+
+.trip{
+    color:#D4A017;
+}
+
+.coluna{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+     border-right: 1px solid rgba(255, 255, 255, 0.068);
+      padding: 0 56px;
+    color:white;
+}
+
+.coluna:last-child{
+    border-right: none;
+}
+
+.coluna a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+
+.coluna p {
+ margin: 0px;
+ 
+    
+}
+
+.coluna a:hover{
+    color:#D4A017;
+}
+
+.redes{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+    
+}
+
+.redes i{
+    width:20px;
+    height:20px;
+
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 9px;
+    color: white;
+}
+
+.coluna > img {
+    width: 120px;
+}
+
+.copyright{
+    text-align:center;
+
+    color:rgba(255,255,255,0.6);
+
+    padding:15px;
+
+    border-top:1px solid rgba(255,255,255,0.1);
+
+    background:#010a1885;
+}
