@@ -1,6 +1,7 @@
-import { defineConfig} from 'vite'
-export default defineConfig (({command}) => {
+import { defineConfig } from 'vite'
+
+export default defineConfig(({ command }) => {
     return {
-        base: "/TasteToTrip/"
+        base: command === 'build' ? '/TasteToTrip/' : '/'
     }
-}) 
+})
